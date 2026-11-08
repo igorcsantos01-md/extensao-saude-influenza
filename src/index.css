@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-editorial: #FBF9F5;
+    --surface-card: #FFFFFF;
+    --primary-petrol: #0F3D4C;
+    --accent-terracotta: #C84B31;
+    --cert-green: #0F4C3A;
+    --cert-navy: #1B365D;
+    --cert-cream: #FAF9F6;
+    --ink-dark: #182226;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #FBF9F5;
+    color: #182226;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+
+  .font-cert-serif {
+    font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+  }
+
+  .font-cert-sans {
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+  }
+
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #certificate-print-area,
+  #certificate-print-area * {
+    visibility: visible;
+  }
+  #certificate-print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

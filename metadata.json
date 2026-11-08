@@ -1,0 +1,6 @@
+{
+  "name": "Extensão em Saúde — Imunização Influenza & Validador Oficial (Certificado Nº 08)",
+  "description": "Plataforma Interinstitucional da Campanha Educativa de Incentivo à Imunização de Grupos Prioritários: Entrega de Folhetos Comunitários sobre Influenza e Atualização da Caderneta, com Leitor PDF Oficial (Certificado Nº 08) e Sistema de Autenticação Pública.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
